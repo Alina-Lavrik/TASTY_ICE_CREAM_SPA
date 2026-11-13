@@ -8,7 +8,7 @@ import
 <p align="center">
   <img src="./public/react.png" alt="React" width="70" />
   &nbsp;&nbsp;
-  <img src="./public/redux.png" alt="Redux Toolkit" width="70" />
+  <img src="./public/redux-toolkit.svg" alt="Redux Toolkit" width="70" />
   &nbsp;&nbsp;
   <img src="./public/vite.svg" alt="Vite" width="70" />
   &nbsp;&nbsp;
@@ -100,7 +100,7 @@ import
 
 - **React 19** — UI, компонентный
 - **Redux Toolkit** — управление состоянием (корзина, избранное, товары)
-- **React Router v6** — клиентская маршрутизация (SPA)
+- **React Router v7** — клиентская маршрутизация (SPA)
 - **Vite** — сборка, dev-сервер, HMR
 - **LocalStorage** - персистентность данных (без бэкенда)
 
