@@ -7,7 +7,9 @@
     "dev": "vite --host",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.13.0",
@@ -17,6 +19,7 @@
     "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
+    "@kingironman2011/vite-pages": "^1.1.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
