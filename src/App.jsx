@@ -5,12 +5,12 @@ import CartPage from './pages/CartPage';
 import FavoritesPage from './pages/FavoritesPage';
 import StatsPage from './pages/StatsPage';
 import AuthPage from './pages/AuthPage';
-import ice_cream from './images/ice_cream.png'
+
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
         <div>
           <h1>🍦 TASTY ICE CREAM <small>Just buy it and try</small></h1>
           <Navigation />
